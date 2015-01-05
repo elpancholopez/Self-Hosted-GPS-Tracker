@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Self-Hosted GPS Tracker</string>
+    
+    <string name="button_toggle">Tracker</string>
+    
+    <string name="desc_logo">Logo</string>
+    
+    <string name="hint_url">http(s)://server/path</string>
+    
+    <string name="menu_settings">Configuración</string>
+    
+    <string name="pref_gps_updates">Actualizacion  GPS (segundos)</string>
+    <string name="pref_gps_updates_summary">Actualización  posicion GPS aproximadamente cada… (30 segundos mínimo)</string>
+    <string name="pref_gps_updates_too_low">Este valor es muy bajo</string>
+
+    <string name="pref_max_run_time">Máximo tiempo de ejecución (horas)</string>
+    <string name="pref_max_run_time_summary">(valor por defecto, 8 horas)</string>
+    <string name="pref_max_run_time_too_low">Este valor es menor que la frecuencia de actualización GPS</string>
+    
+    <string name="text_legend_url_0">Enviar Coordenadas GPS a  :</string>
+    <string name="text_legend_url_1">Ejemplo: http://herverenault.fr/gps</string>
+    <string name="text_legend_url_2">La latitud y la longitud se añade automaticamente</string>
+    <string name="text_legend_url_3">Como en  http://herverenault.fr/gps?lat=…&amp;lon=…</string>
+    
+    <string name="text_network_status">Estado de red, desconocido</string>
+    <string name="text_network_status_enabled">Internet Habilitado</string>
+    <string name="text_network_status_disabled">¡Atención, Internet esta deshabilitado!</string>
+    
+    <string name="text_gps_status">Estado de GPS desconocido</string>
+    <string name="text_gps_status_enabled">GPS habilitado</string>
+    <string name="text_gps_status_disabled">¡Atención, El GPS está deshabilitado!</string>
+    
+    <string name="text_running_since">Ejecutandose desde</string>
+    <string name="text_stopped_on">Detenido el</string>
+    <string name="text_killed">Android ha detenido la aplicación</string>
+    
+	<string name="toast_service_running">Servicio de Tracking iniciado</string>
+	<string name="toast_service_stopped">Servicio de Tracking detenido</string>
+	<string name="toast_prefs_restart">¡No se olvide de reiniciar el servicio Tracking!</string>
+</resources>
